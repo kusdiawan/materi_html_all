@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input type select</title>
+</head>
+<body>
+	<form>
+		<select name="makanan">
+			<p>Makanan : 
+			<option value="soto-kudus">Soto Kudus</option>
+			<option value="tude Bakar">Tude bakar</option>
+			<option value="tempoyak-ikan">Tempoyak Ikan</option>
+			<option value="kerak-telor">Kerak Telor</option>
+			<option value="nasi-padang">Nasi Padang</option>
+			</p>	
+		</select>
+<br />
+<!-- menentutkan pilihan default -->
+		<select name="pesanan">
+			<p>Makanan : 
+			<option value="soto-kudus">Soto Kudus</option>
+			<option value="tude Bakar">Tude bakar</option>
+			<option value="tempoyak-ikan" selected="">Tempoyak Ikan</option>
+			<option value="kerak-telor">Kerak Telor</option>
+			<option value="nasi-padang">Nasi Padang</option>
+			</p>
+		</select>
+<br />
+<!-- agar dapat memilih lebih dari 1 -->
+		<select name="makanan" multiple="">
+			<p>Makanan : 
+			<option value="soto-kudus">Soto Kudus</option>
+			<option value="tude Bakar">Tude bakar</option>
+			<option value="tempoyak-ikan">Tempoyak Ikan</option>
+			<option value="kerak-telor">Kerak Telor</option>
+			<option value="nasi-padang">Nasi Padang</option>
+			</p>
+		</select>
+<br />
+
+<!--mengelompokkan pilihan /group -->
+		<select name="makanan">
+			<optgroup label="Makanan">
+				<option value="soto-kudus">Soto Kudus</option>
+				<option value="tude Bakar">Tude bakar</option>
+				<option value="tempoyak-ikan">Tempoyak Ikan</option>
+				<option value="kerak-telor">Kerak Telor</option>
+				<option value="nasi-padang">Nasi Padang</option>
+			</optgroup>
+		
+			<optgroup label="Minuman">
+				<option value="es-teh">Es teh</option>
+				<option value="es-jeruk">Es jeruk</option>
+				<option value="es-kopi">Es kopi</option>
+			</optgroup>
+		</select>
+
+	</form>
+
+</body>
+</html>

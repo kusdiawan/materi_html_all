@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Elemen HTML</title>
+</head>
+<body>
+<!-- form digunakan sebagai container dari komponen
+atribut actorn untuk merujuk pada file tempat eksekusi pengiriman data	
+methode terdoro daro get dan post untuk memberi tahu broser tentang pengiriman data
+	atribut target untuk mengarahkan broser misalnya _blank
+	novalidate untuk menonaktifkan validasi pada form --> 
+	
+	<!-- deklarasi form
+ -->	<!-- <form action="" method="" target="_blank" novalidate> -->
+	
+      <!-- input data 
+  type memiliki value atau nilai yang berbeda msialnya teks
+  value untuk memberikan nilai pada teks
+  size untuk menentukan lebar text box
+  readonly dan disable untuk membuat sebuah emen input agar tidak dapat diubah nilainya, readonly secara tampilan akan terlihat aktif tapi nilainya tdk dapat diubah sedangkan disable tidak dapat diakses
+  maxlength untuk membatasi jumlah karakter yang akan diinput
+  autofocus untuk meletakan kursor secara otomatis saat browser diakses
+  placeholder untuk memerikan informasi sementara pengisian input data
+  require bahwa elemen tersebut wajib diisi
+  name untuk memberi nama elemen
+      -->	
+
+      <form>
+	  <input type="text" name="" value="Jakarta" size="7" disabled/>
+	  <br/>
+	   <input type="text" name="" value="Jakarta" size="12" readonly />
+	   <br/>
+       <input type="text" name="" value="" maxlength="7" />
+		<br/>
+       <input type="text" name="" value="" autofocus/>
+       <br />
+	   <input type="text" name="" value="" placeholder="Nama lengkap" />
+	   <br />
+	   <input type="text" required onivalid="this.setCustomValidity('Moho data diisi..')"  />
+	   <input type="submit" value="submit"  />
+		<br />
+	   <input type="text" name="namadepan" />
+	   <br />
+	   <input type="text" name="namabelakang" />
+	   <br />
+	   <input type="text" name="kota" />
+	</form>  
+
+	
+
+</body>
+</html>
